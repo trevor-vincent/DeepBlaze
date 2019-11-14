@@ -174,7 +174,7 @@ void back_prop(
 	
   	layer.hidden_delta =
   layers[layer_idx+1].hidden_delta*recurrent_transpose;
-      }
+      }0
     }
 }
 
