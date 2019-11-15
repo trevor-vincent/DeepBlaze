@@ -3,7 +3,7 @@
 
 #include <vector>
 #include "../blaze/Math.h"
-#include "../Optimizers/Optimizer.h"
+#include "../Optimizers/Optimizer.hpp"
 
 namespace DeepBlaze
 {
