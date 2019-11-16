@@ -2,7 +2,10 @@
 #define LAYER_H 
 
 #include <vector>
-#include "../blaze/Math.h"
+#include "../blaze/math/dense/DynamicVector.h"
+#include "../blaze/math/dense/DynamicMatrix.h"
+#include "../blaze/math/TransposeFlag.h"
+#include "../blaze/math/StorageOrder.h"
 #include "../Optimizers/Optimizer.hpp"
 
 namespace DeepBlaze
